@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+
+input {
+    padding: 10px;
+    width: 100%;  /* taked up 100% of the width but is wider because of the padding */
+    box-sizing: border-box; /* takes into account the padding size */
+    border: 1px solid #5f9341;
+}
+
+button {
+    margin-top: 5px;
+    background-color: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
+ul {
+    list-style-type: none;  /* remove bullet points */
+    padding-left: 0;
+}
+li {
+    padding: 4px 0;
+    
+}
+li a {  /* specify that you only want to select anchor tags within list items */
+    color: #5f9341;
+}
